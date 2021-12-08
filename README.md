@@ -1,6 +1,6 @@
 # flutter_app_getx
 
-sample getx
+sampels getx
 
 ## Getting Started
 
