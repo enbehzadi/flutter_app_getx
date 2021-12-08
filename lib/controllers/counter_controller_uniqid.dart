@@ -1,0 +1,14 @@
+import 'package:get/get_rx/src/rx_types/rx_types.dart';
+import 'package:get/get_state_manager/src/simple/get_controllers.dart';
+// ignore: camel_case_types
+class counter_controller_uniqid extends GetxController {
+  var count = 0.obs;
+
+ void increment() {
+   count=count+1;
+   update(['SecondTextCount']);
+ }
+
+}
+
+
